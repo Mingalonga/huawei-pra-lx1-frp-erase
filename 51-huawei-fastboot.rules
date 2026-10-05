@@ -1,0 +1,11 @@
+# Huawei VCOM download mode
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="3609", MODE="0666", GROUP="plugdev"
+# Huawei fastboot nativo (Kirin 65x)
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="1057", MODE="0666", GROUP="plugdev"
+# Huawei USB catch-all
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0666", GROUP="plugdev"
+# Google fastboot ID
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0666", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", MODE="0666", GROUP="plugdev"
+# Evitar que ModemManager interfiera con VCOM
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="3609", ENV{ID_MM_DEVICE_IGNORE}="1"
