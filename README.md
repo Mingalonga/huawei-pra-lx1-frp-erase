@@ -1,5 +1,10 @@
 # Huawei PRA-LX1 — FRP Erase (Linux, 1 click)
 
+```bash
+git clone https://github.com/Mingalonga/huawei-pra-lx1-frp-erase
+```
+
+
 Borra la partición FRP de un Huawei PRA-LX1 (Kirin 655) via testpoint + VCOM, sin necesitar cuenta Google ni desbloquear el bootloader.
 
 **Sistema operativo:** Linux (Ubuntu, Pop!_OS, Debian...)
