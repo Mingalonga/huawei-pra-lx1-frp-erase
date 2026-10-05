@@ -40,6 +40,7 @@ sudo usermod -aG plugdev $USER
 ```bash
 git clone https://github.com/Mingalonga/huawei-pra-lx1-frp-erase
 cd huawei-pra-lx1-frp-erase
+cd huawei-pra-lx1-frp-erase
 chmod +x frp_erase.sh
 ```
 
