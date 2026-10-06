@@ -4,7 +4,7 @@
 #  Método: VCOM → huawei_dload -k 655 → fastboot erase frp
 # ============================================================
 
-DLOAD_DIR="$(dirname "$(realpath "$0")")"
+DLOAD_DIR="$HOME/huawei-usbupdate-tool"
 BOLD="\033[1m"
 GREEN="\033[1;32m"
 RED="\033[1;31m"
