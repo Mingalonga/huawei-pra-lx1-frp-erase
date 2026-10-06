@@ -86,3 +86,9 @@ PotatoNV en Linux nunca transiciona de VCOM a Fastboot correctamente — ModemMa
 ## Compatibilidad
 
 Probado en Huawei PRA-LX1 (Honor 6X) · Kirin 655 · Pop!_OS 22.04
+
+---
+
+## Créditos
+
+El binario `huawei_dload` y los loaders Kirin son parte del proyecto [huawei-usbupdate-tool](https://github.com/huawei-usbupdate-tool). Este repo solo empaqueta las herramientas necesarias para facilitar el proceso en un único script.
